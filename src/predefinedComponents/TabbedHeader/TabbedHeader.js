@@ -101,6 +101,7 @@ export default class TabbedHeader extends React.Component {
         {renderImage()}
         <Animated.View style={[styles.messageContainer, { opacity: titleOpacity }]}>
           <Text style={messageStyle}>{title}</Text>
+          {this.props.subtitle && this.props.subtitle()}
         </Animated.View>
       </View>
     )
