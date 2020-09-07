@@ -8,8 +8,8 @@ export default {
   cardScreenHeaderHeight: Platform.select({ ios: ifIphoneX(95, 85), android: 100 }),
   userModalHeaderHeight: ifIphoneX(100, 75),
   homeScreenParallaxHeader: ifIphoneX(
-    constants.responsiveHeight(38),
-    constants.responsiveHeight(48)
+    constants.responsiveHeight(48),
+    constants.responsiveHeight(58)
   ),
   cardScreenParallaxHeader: ifIphoneX(
     constants.responsiveHeight(43),
